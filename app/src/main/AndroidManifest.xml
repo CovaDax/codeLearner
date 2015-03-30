@@ -4,8 +4,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/fgcu_logo"
+        android:label="FGCU codeLearner"
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
@@ -15,6 +15,98 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProgramStructure"
+            android:label="@string/title_activity_program_structure"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Variables"
+            android:label="@string/title_activity_variables"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BooleanLogic"
+            android:label="@string/title_activity_boolean_logic"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Operators"
+            android:label="@string/title_activity_operators"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ConditionalStatements"
+            android:label="@string/title_activity_conditional_statements"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Loops"
+            android:label="@string/title_activity_loops"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FunctionsMethods"
+            android:label="@string/title_activity_functions_methods" >
+        </activity>
+        <activity
+            android:name=".Classes"
+            android:label="@string/title_activity_classes"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Objects"
+            android:label="@string/title_activity_objects"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Binary"
+            android:label="@string/title_activity_binary"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".JavaBasics"
+            android:label="@string/title_activity_java_basics"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CCBasics"
+            android:label="@string/title_activity_cbasics"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
         </activity>
     </application>
 
