@@ -15,4 +15,5 @@
     <string name="title_activity_binary">Binary</string>
     <string name="title_activity_java_basics">JavaBasics</string>
     <string name="title_activity_cbasics">CBasics</string>
+    <string name="title_activity_comparisons">Comparisons</string>
 </resources>
