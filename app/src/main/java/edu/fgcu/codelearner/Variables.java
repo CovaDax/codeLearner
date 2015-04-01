@@ -5,6 +5,8 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ExpandableListView;
+import android.widget.ListView;
 
 
 public class Variables extends ActionBarActivity {
@@ -16,6 +18,7 @@ public class Variables extends ActionBarActivity {
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Variables");
+
     }
 
 
