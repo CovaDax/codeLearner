@@ -4,8 +4,28 @@
     android:layout_width="fill_parent">
 
     <ExpandableListView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/expandableListView" />
+
+
+    <TextView
+
+    android:textSize="20sp"
+
+
+    android:text="\n
+
+    Variables are the backbone of any program, and thus the backbone of any programming language. I like to start off by defining what we’re about to learn, so, Wiki defines a variable as follows: \n
+
+    \t\tIn computer programming, a variable is a storage location and an associated symbolic name which contains some known or unknown quantity or information, a value."
+
+
+
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

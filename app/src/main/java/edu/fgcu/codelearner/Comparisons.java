@@ -1,13 +1,13 @@
 package edu.fgcu.codelearner;
 
-<<<<<<< HEAD
+
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-=======
+
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
->>>>>>> 9dc36a3843768e4776dae2ff4554ee295ce71654
+
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -18,12 +18,11 @@ public class Comparisons extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_comparisons);
-<<<<<<< HEAD
+
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Comparisons");
-=======
->>>>>>> 9dc36a3843768e4776dae2ff4554ee295ce71654
+
     }
 
 
