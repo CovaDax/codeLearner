@@ -1,18 +1,21 @@
 package edu.fgcu.codelearner;
 
-import android.app.Activity;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class ProgramStructure extends Activity {
+public class ProgramStructure extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_program_structure);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("Program Structure");
     }
 
 

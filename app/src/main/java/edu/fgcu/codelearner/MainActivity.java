@@ -1,10 +1,9 @@
 package edu.fgcu.codelearner;
 
-import android.app.Activity;
-import android.app.ListActivity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -12,10 +11,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import static java.security.AccessController.getContext;
 
-
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
 
     private String[] concepts = {
         "Program Structure", "Variables", "Boolean Logic",
@@ -28,6 +25,9 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("FGCU codeLearner");
 
         ArrayAdapter<String> conceptList  = new ArrayAdapter<String>(
                 this,

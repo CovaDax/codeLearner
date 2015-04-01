@@ -7,22 +7,22 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Operators extends ActionBarActivity {
+public class Comparisons extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_operators);
+        setContentView(R.layout.activity_comparisons);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Operators");
+        actionBar.setTitle("Comparisons");
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_operators, menu);
+        getMenuInflater().inflate(R.menu.menu_comparisons, menu);
         return true;
     }
 
