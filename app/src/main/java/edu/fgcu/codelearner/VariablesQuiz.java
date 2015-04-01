@@ -36,13 +36,15 @@ public class VariablesQuiz extends ActionBarActivity {
         // Check which radio button was clicked
         switch(view.getId()) {
             case R.id.varQuizYes:
-                if (checked)
+                if (checked) {
                     Toast.makeText(this, "Neeeeerd!", Toast.LENGTH_SHORT).show();
-                break;
+                    break;
+                }
             case R.id.varQuizNo:
-                if (checked)
+                if (checked) {
                     Toast.makeText(this, "I know right, I hate quizzes", Toast.LENGTH_SHORT).show();
                     break;
+                }
         }
     }
 
