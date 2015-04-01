@@ -36,8 +36,8 @@
         android:layout_height="wrap_content"
         android:background="@color/fgcu_green"
         android:layout_weight="2"
-        android:align="bottom"
-        android:gravity="center|bottom">
+        android:gravity="center|bottom"
+        android:layout_gravity="center_horizontal">
 
         <Button
             android:layout_width="wrap_content"
