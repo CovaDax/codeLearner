@@ -3,28 +3,42 @@
     android:layout_height="fill_parent"
     android:layout_width="fill_parent">
 
-    <TextView
-
-    android:textSize="20sp"
-
-
-    android:text="\n      Variables are the backbone of any program, and thus the backbone of any programming language. I like to start off by defining what we’re about to learn, so, Wiki defines a variable as follows: \n      \t\tIn computer programming, a variable is a storage location and an associated symbolic name which contains some known or unknown quantity or information, a value."
-
-
-
-
-        android:layout_width="wrap_content"
-
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:id="@+id/" />
+        android:background="@color/fgcu_green">
 
-    <ExpandableListView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textView" />
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/expandableListView" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Quiz"
+            android:id="@+id/button"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_gravity="right" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
 
+        <TextView
+        android:textSize="20sp"
+        android:text="\n      Variables are the backbone of any program, and thus the backbone of any programming language. I like to start off by defining what we’re about to learn, so, Wiki defines a variable as follows: \n      \t\tIn computer programming, a variable is a storage location and an associated symbolic name which contains some known or unknown quantity or information, a value."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/" />
+    </LinearLayout>
 </LinearLayout>

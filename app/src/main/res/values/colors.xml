@@ -1,5 +1,7 @@
 <resources>
 
     <color name="black_overlay">#66000000</color>
+    <color name="fgcu_green">#00784b</color>
+    <color name="fgcu_blue">#092869</color>
 
 </resources>

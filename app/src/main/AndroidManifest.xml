@@ -120,6 +120,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.fgcu.codelearner.MainActivity" />
         </activity>
+        <activity
+            android:name=".VariablesQuiz"
+            android:label="@string/title_activity_variables_quiz"
+            android:parentActivityName=".Variables" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.Variables" />
+        </activity>
     </application>
 
 </manifest>
