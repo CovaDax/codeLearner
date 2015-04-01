@@ -5,6 +5,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.RadioButton;
+import android.widget.Toast;
 
 
 public class VariablesQuiz extends ActionBarActivity {
@@ -24,6 +27,23 @@ public class VariablesQuiz extends ActionBarActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_variables_quiz, menu);
         return true;
+    }
+
+    public void onRadioButtonClicked(View view) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.varQuizYes:
+                if (checked)
+                    Toast.makeText(this, "Neeeeerd!", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.varQuizNo:
+                if (checked)
+                    Toast.makeText(this, "I know right, I hate quizzes", Toast.LENGTH_SHORT).show();
+                    break;
+        }
     }
 
     @Override
