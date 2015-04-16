@@ -1,6 +1,5 @@
 package edu.fgcu.codelearner;
 
-
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
@@ -12,16 +11,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Comparisons extends ActionBarActivity {
+public class Types extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_comparisons);
-
+        setContentView(R.layout.activity_types);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Comparisons");
+        actionBar.setTitle("Types");
 
     }
 
@@ -29,7 +27,7 @@ public class Comparisons extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_comparisons, menu);
+        getMenuInflater().inflate(R.menu.menu_types, menu);
         return true;
     }
 

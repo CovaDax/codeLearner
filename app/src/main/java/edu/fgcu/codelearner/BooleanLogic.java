@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-// Need to add scrolling for this activity 
+// Need to add scrolling for this activity
 
 
 public class BooleanLogic extends ActionBarActivity {

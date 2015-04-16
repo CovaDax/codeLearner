@@ -16,7 +16,7 @@ public class MainActivity extends ActionBarActivity {
 
     private String[] concepts = {
         "Program Structure", "Variables", "Boolean Logic",
-            "Operators", "Comparisons", "Conditional Statements",
+            "Operators", "Types", "Conditional Statements",
             "Loops", "Functions/Methods", "Classes", "Objects",
             "Binary", "Java Basics", "C/C++ Basics"
     };

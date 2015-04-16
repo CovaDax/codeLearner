@@ -4,11 +4,9 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="edu.fgcu.codelearner.Comparisons">
+    tools:context="edu.fgcu.codelearner.Types">
 
-
-    <TextView android:text="Comparisons" android:layout_width="wrap_content"
-
+    <TextView android:text="Types" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 </RelativeLayout>
