@@ -21,13 +21,41 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <TextView
-                android:textSize="15sp"
-                android:text="Java"
+            <!--<TextView-->
+                <!--android:textSize="15sp"-->
+                <!--android:text="Java"-->
+                <!--android:paddingLeft="15dp"-->
+                <!--android:paddingRight="15dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"/>-->
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
+                android:src="@drawable/java_hello_world"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Figure 1: Hello World in Java\n\n\n"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/java_function"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Figure 2: Java Sample Function\n\n\n"/>
+
 
         </LinearLayout>
     </ScrollView>

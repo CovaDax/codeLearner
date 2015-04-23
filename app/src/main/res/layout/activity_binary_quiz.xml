@@ -23,8 +23,10 @@
             <TextView
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="BINARY QUIZ"
-                android:textSize="40dp"/>
+                android:text="Question 1:\n\nWhat numbers represent binary?\n\nQuestion 2:\n\nConvert the decimal value 51 to binary.\n\nQuestion 3: \n\n How many bits are in a byte?
+                \n\n\n\n\n\n\n\n\n\n\n\n\nSolutions\n\nQuestion 1) 1,0\nQuestion 2) 00110011\nQuestion 3) 8 bits\n\n\n\n\n\n"
+
+                android:textSize="20dp"/>
         </LinearLayout>
     </ScrollView>
 

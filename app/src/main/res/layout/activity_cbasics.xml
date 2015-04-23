@@ -21,13 +21,42 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <TextView
-                android:textSize="15sp"
-                android:text="C/C++"
+            <!--<TextView-->
+                <!--android:textSize="15sp"-->
+                <!--android:text=""-->
+                <!--android:paddingLeft="15dp"-->
+                <!--android:paddingRight="15dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"/>-->
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
+                android:src="@drawable/hello_world_c"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Figure 1: Hello World in C++\n\n\n"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/c_function"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="\n\n\nFigure 2: C++ Sample Function\n\n\n"/>
+
 
         </LinearLayout>
     </ScrollView>

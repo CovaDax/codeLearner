@@ -23,8 +23,9 @@
             <TextView
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="OBJECTS QUIZ"
-                android:textSize="40dp"/>
+                android:text="Question 1:\n\nAn Object can be a data structure (T or F).\n\nQuestion 2:\n\nAn Object can be a program (T or F).\n\n
+                \n\n\n\n\n\n\n\n\nSolutions\n\nQuestion 1: T\nQuestion 2: F\n\n\n\n\n\n"
+                android:textSize="20dp"/>
         </LinearLayout>
     </ScrollView>
 

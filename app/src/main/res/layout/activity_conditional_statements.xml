@@ -30,11 +30,23 @@
             android:orientation="vertical">
             <TextView
                 android:textSize="15sp"
-                android:text="\nCS"
+                android:text="\n     Conditional structures (Do certain things based on a true or false, yes or no decision.) These provide for one outcome or sequence of events to be executed if a statement is true, and another outcome or sequence of events to be triggered if the statement is false. In most programming languages these structures take the form if, then, or else."
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/ifelseexamples"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Figure 1: If-Else Examples"/>
 
         </LinearLayout>
     </ScrollView>

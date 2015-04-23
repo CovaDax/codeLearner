@@ -23,8 +23,10 @@
             <TextView
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="CONDITIONAL STATEMENTS QUIZ"
-                android:textSize="40dp"/>
+                android:text="Question 1:\n\nWhat keyword is followed after an IF statement?\n\nQuestion 2:\n\nIn Addition to IF and ELSE, what other kind of conditional statement exists?
+                \n\n\n\n\n\nSolutions\n\nQuestion 1) ELSE\nQuestion 2) ELSE-IF"
+
+                android:textSize="20dp"/>
         </LinearLayout>
     </ScrollView>
 

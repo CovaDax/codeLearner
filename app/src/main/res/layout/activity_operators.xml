@@ -29,11 +29,23 @@
             android:orientation="vertical">
             <TextView
                 android:textSize="15sp"
-                android:text="Operators"
+                android:text="\n     Programming languages typically support a set of operators: constructs which behave generally like functions, but which differ syntactically or semantically from usual functions. Common simple examples include arithmetic (addition with +, comparison with >) and logical operations such as AND."
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/operators_example"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Figure 1: Operators Chart"/>
         </LinearLayout>
     </ScrollView>
 

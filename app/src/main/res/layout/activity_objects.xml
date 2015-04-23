@@ -30,11 +30,24 @@
             android:orientation="vertical">
             <TextView
                 android:textSize="15sp"
-                android:text="Objects"
+                android:text="\n     An object can be a variable, a data structure, or a function. In the class-based object-oriented programming paradigm, object refers to a particular instance of a class where the object can be a combination of variables, functions, and data structures."
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/oop_objects"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal"
+                android:text="Figure 1: OOP Objects"/>
 
         </LinearLayout>
     </ScrollView>

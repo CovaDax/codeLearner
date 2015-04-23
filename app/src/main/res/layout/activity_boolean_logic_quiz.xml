@@ -23,8 +23,10 @@
             <TextView
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="BOOLEAN LOGIC QUIZ"
-                android:textSize="40dp"/>
+                android:text="Question 1:\n\nEvaluate this statement (A ^ B) when A is False and B is True.\n\nQuestion 2:\n\nEvaluate this statement (!A ^ B) when A is False and B is True.\n\n
+                \n\n\n\n\n\n\n\n\n\n\n\n\n\nSolutions\n\nQuestion 1) False\nQuestion 2) True\n\n\n\n\n\n"
+
+                android:textSize="20dp"/>
         </LinearLayout>
     </ScrollView>
 

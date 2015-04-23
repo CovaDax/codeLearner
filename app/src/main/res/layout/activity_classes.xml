@@ -30,11 +30,26 @@
             android:orientation="vertical">
             <TextView
                 android:textSize="15sp"
-                android:text="Classes"
+                android:text="\n      A class is an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions, methods). When an object is created by a constructor of the class, the resulting object is called an instance of the class, and the member variables specific to the object are called instance variables, to contrast with the class variables shared across the class.\n"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/uml_class_example"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="\nFigure 1: UML Class Diagram for a Buttom"/>
+
         </LinearLayout>
     </ScrollView>
 

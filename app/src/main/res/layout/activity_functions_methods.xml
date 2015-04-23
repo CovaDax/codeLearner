@@ -30,11 +30,25 @@
             android:orientation="vertical">
             <TextView
                 android:textSize="15sp"
-                android:text="Functions"
+                android:text="\n     In programming, a named section of a program that performs a specific task. In this sense, a function is a type of procedure or routine. Some programming languages make a distinction between a function, which returns a value, and a procedure, which performs some operation but does not return a value.
+Most programming languages come with a prewritten set of functions that are kept in a library. You can also write your own functions to perform specialized tasks."
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/function_example"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Figure 1: Function Example"/>
 
         </LinearLayout>
     </ScrollView>
