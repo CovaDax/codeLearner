@@ -1,53 +1,54 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_height="fill_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:weightSum="1"
-    android:gravity="bottom">
+    android:layout_height="fill_parent">
 
     <LinearLayout
-        android:orientation="vertical"
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fgcu_green"
+            android:textColor="#FFFFFF"
+            android:text="Variables Quiz"
+            android:id="@+id/button"/>
+
+    </LinearLayout>
+
+    <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_gravity="top"
-        android:gravity="top"
-        android:layout_weight="1"
-        android:weightSum="1">
-
-        <ScrollView
+        android:layout_above="@id/buttons">
+        <!--Scrollable content here-->
+        <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/scrollView"
-            android:layout_weight="0">
-
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
             <TextView
-            android:textSize="15sp"
-            android:text="\n      Variables are the backbone of any program, and thus the backbone of any programming language. I like to start off by defining what we’re about to learn, so, Wiki defines a variable as follows: \n      \t\tIn computer programming, a variable is a storage location and an associated symbolic name which contains some known or unknown quantity or information, a value."
+                android:textSize="15sp"
+                android:text="\n      Variables are the backbone of any program, and thus the backbone of any programming language. I like to start off by defining what we’re about to learn, so, Wiki defines a variable as follows: \n      \t\tIn computer programming, a variable is a storage location and an associated symbolic name which contains some known or unknown quantity or information, a value."
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp" />
-        </ScrollView>
-    </LinearLayout>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/basicsvariable"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Figure 1: Basic Variables"/>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/fgcu_green"
-        android:layout_weight="2"
-        android:gravity="center|bottom"
-        android:layout_gravity="center_horizontal">
+        </LinearLayout>
+    </ScrollView>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Take Quiz"
-            android:id="@+id/button"
-            android:layout_weight="0"
-            android:textStyle="bold"
-            android:typeface="serif"
-            android:layout_gravity="center_horizontal" />
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>

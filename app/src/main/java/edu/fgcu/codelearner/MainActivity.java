@@ -16,9 +16,9 @@ public class MainActivity extends ActionBarActivity {
 
     private String[] concepts = {
         "Program Structure", "Variables", "Boolean Logic",
-            "Operators", "Comparisons", "Conditional Statements",
+            "Operators", "Types", "Conditional Statements",
             "Loops", "Functions/Methods", "Classes", "Objects",
-            "Binary", "Java Basics", "C/C++ Basics"
+            "Binary", "Data Structures", "Java Basics", "C/C++ Basics"
     };
 
     @Override
@@ -79,9 +79,9 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }

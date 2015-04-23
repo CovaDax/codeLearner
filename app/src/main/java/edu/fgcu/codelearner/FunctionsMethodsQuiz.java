@@ -1,37 +1,34 @@
 package edu.fgcu.codelearner;
 
-
-import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.RadioButton;
+import android.widget.Toast;
 
 
-public class Comparisons extends ActionBarActivity {
+public class FunctionsMethodsQuiz extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_comparisons);
-
+        setContentView(R.layout.activity_functions_methods_quiz);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Comparisons");
-
+        actionBar.setTitle("Functions and Methods Quiz");
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_comparisons, menu);
+        getMenuInflater().inflate(R.menu.menu_functions_methods_quiz, menu);
         return true;
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -41,9 +38,9 @@ public class Comparisons extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }
