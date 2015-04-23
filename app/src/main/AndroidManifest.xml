@@ -97,6 +97,14 @@
                 android:value="edu.fgcu.codelearner.MainActivity" />
         </activity>
         <activity
+            android:name=".DataStructures"
+            android:label="@string/title_activity_program_structure"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.MainActivity" />
+        </activity>
+        <activity
             android:name=".JavaBasics"
             android:label="@string/title_activity_java_basics"
             android:parentActivityName=".MainActivity" >
@@ -120,6 +128,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.fgcu.codelearner.MainActivity" />
         </activity>
+
+        /* QUIZ ACTIVITIES */
+
         <activity
             android:name=".VariablesQuiz"
             android:label="@string/title_activity_variables_quiz"
@@ -128,6 +139,95 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.fgcu.codelearner.Variables" />
         </activity>
+        <activity
+            android:name=".BinaryQuiz"
+            android:label="@string/title_activity_variables_quiz"
+            android:parentActivityName=".Binary" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.Binary" />
+        </activity>
+        <activity
+            android:name=".BooleanLogicQuiz"
+            android:label="@string/title_activity_variables_quiz"
+            android:parentActivityName=".BooleanLogic" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.BooleanLogic" />
+        </activity>
+        <activity
+            android:name=".ClassesQuiz"
+            android:label="@string/title_activity_variables_quiz"
+            android:parentActivityName=".Classes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.Classes" />
+        </activity>
+        <activity
+            android:name=".ConditionalStatementsQuiz"
+            android:label="@string/title_activity_variables_quiz"
+            android:parentActivityName=".ConditionalStatements" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.ConditionalStatements" />
+        </activity>
+        <activity
+            android:name=".FunctionsMethodsQuiz"
+            android:label="@string/title_activity_variables_quiz"
+            android:parentActivityName=".FunctionsMethods" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.FunctionsMethods" />
+        </activity>
+        <activity
+            android:name=".LoopsQuiz"
+            android:label="@string/title_activity_variables_quiz"
+            android:parentActivityName=".Loops" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.Loops" />
+        </activity>
+        <activity
+            android:name=".ObjectsQuiz"
+            android:label="@string/title_activity_variables_quiz"
+            android:parentActivityName=".Objects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.Objects" />
+        </activity>
+        <activity
+            android:name=".OperatorsQuiz"
+            android:label="@string/title_activity_variables_quiz"
+            android:parentActivityName=".Operators" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.Operators" />
+        </activity>
+        <activity
+            android:name=".DataStructuresQuiz"
+            android:label="@string/title_activity_program_structure"
+            android:parentActivityName=".DataStructures" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.DataStructures" />
+        </activity>
+        <activity
+            android:name=".ProgramStructureQuiz"
+            android:label="@string/title_activity_program_structure"
+            android:parentActivityName=".ProgramStructure" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.ProgramStructure" />
+        </activity>
+        <activity
+            android:name=".TypesQuiz"
+            android:label="@string/title_activity_program_structure"
+            android:parentActivityName=".Types" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.fgcu.codelearner.Types" />
+        </activity>
+
     </application>
 
 </manifest>

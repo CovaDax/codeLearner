@@ -1,5 +1,6 @@
 package edu.fgcu.codelearner;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -29,24 +30,6 @@ public class VariablesQuiz extends ActionBarActivity {
         return true;
     }
 
-    public void onRadioButtonClicked(View view) {
-        // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
-
-        // Check which radio button was clicked
-        switch(view.getId()) {
-            case R.id.varQuizYes:
-                if (checked) {
-                    Toast.makeText(this, "Neeeeerd!", Toast.LENGTH_SHORT).show();
-                    break;
-                }
-            case R.id.varQuizNo:
-                if (checked) {
-                    Toast.makeText(this, "I know right, I hate quizzes", Toast.LENGTH_SHORT).show();
-                    break;
-                }
-        }
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -56,9 +39,9 @@ public class VariablesQuiz extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }
